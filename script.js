@@ -51,7 +51,7 @@ request.onload = function () {
         //console.log(currencies);
         for ( let ele of currencies)
         {
-            if (ele.name == "United States dollar")
+            if (ele.code == "USD")
             return country;
         }
         //console.log("**********************");
