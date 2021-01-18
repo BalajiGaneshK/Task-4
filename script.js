@@ -32,10 +32,10 @@ request.onload = function () {
     console.log(popLessThan2Lakhs);
 
     //3.Print name,Capital, Flag using forEach function
-    /*console.log("3.Print name,Capital, Flag using forEach function");
+    console.log("3.Print name,Capital, Flag using forEach function");
     countryData.forEach(country => {
         console.log("Name:", country.name, "Capital:", country.capital, "Flag:", country.flag);
-    });*/
+    });
 
     //4.Print Total Population of all countries using reduce function
     console.log("4.Print Total Population of all countries using reduce function");
